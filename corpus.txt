@@ -1,0 +1,5 @@
+wake up
+sleep
+restart
+poweroff
+

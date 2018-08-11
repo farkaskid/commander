@@ -1,0 +1,44 @@
+Language model created by QuickLM on Sat Aug 11 12:34:49 EDT 2018
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 4 sentences and 7 words
+
+\data\
+ngram 1=7
+ngram 2=9
+ngram 3=5
+
+\1-grams:
+-0.8129 </s> -0.3010
+-0.8129 <s> -0.2285
+-1.4150 POWEROFF -0.2285
+-1.4150 RESTART -0.2285
+-1.4150 SLEEP -0.2285
+-1.4150 UP -0.2285
+-1.4150 WAKE -0.2840
+
+\2-grams:
+-0.9031 <s> POWEROFF 0.0000
+-0.9031 <s> RESTART 0.0000
+-0.9031 <s> SLEEP 0.0000
+-0.9031 <s> WAKE 0.0000
+-0.3010 POWEROFF </s> -0.3010
+-0.3010 RESTART </s> -0.3010
+-0.3010 SLEEP </s> -0.3010
+-0.3010 UP </s> -0.3010
+-0.3010 WAKE UP 0.0000
+
+\3-grams:
+-0.3010 <s> POWEROFF </s>
+-0.3010 <s> RESTART </s>
+-0.3010 <s> SLEEP </s>
+-0.3010 <s> WAKE UP
+-0.3010 WAKE UP </s>
+
+\end\
