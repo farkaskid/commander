@@ -78,6 +78,9 @@ func handleAction(hyp string) {
 		
 		case "WAKE UP":
 		executeCommand("loginctl", "unlock-session")
+
+		case "POWEROFF":
+		executeCommand("poweroff")
 	}
 }
 

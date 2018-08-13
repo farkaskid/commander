@@ -7,7 +7,7 @@ On linux, Your sound server may be different. `pulseaudio` is the default sound 
 
 For Windows and MacOS, [portaudio](http://www.portaudio.com/) is recommended.
 
-I've used [PocketSphinx](http://www.speech.cs.cmu.edu/pocketsphinx/) for voice recognition, however `Sphinx4` also works well, it's just a lil slow. The go bindings can be found [here](https://github.com/cmusphinx/pocketsphinx)
+I've used [PocketSphinx](http://www.speech.cs.cmu.edu/pocketsphinx/) for voice recognition, however `Sphinx4` also works well, it's just a little slow. The go bindings can be found [here](https://github.com/cmusphinx/pocketsphinx)
 
 I've used and highly recommend a custom dictionary according to your desirable commands which then can be mapped to anything you want. This dictionary is very small and only consists of few commands, more commands should be added to improve the accuracy.
 
